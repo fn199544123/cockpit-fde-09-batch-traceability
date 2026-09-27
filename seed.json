@@ -1,0 +1,108 @@
+[
+  {
+    "id": "DEMO-R001",
+    "type": 0,
+    "product": "鸭脖原料",
+    "quantity": 120,
+    "location": "某企业 · 原料仓",
+    "date": "2026-09-25",
+    "parents": []
+  },
+  {
+    "id": "DEMO-R002",
+    "type": 0,
+    "product": "鸭翅原料",
+    "quantity": 80,
+    "location": "某企业 · 原料仓",
+    "date": "2026-09-25",
+    "parents": []
+  },
+  {
+    "id": "DEMO-P001",
+    "type": 1,
+    "product": "卤鸭脖",
+    "quantity": 95,
+    "location": "某企业 · 一车间",
+    "date": "2026-09-26",
+    "parents": [
+      "DEMO-R001"
+    ]
+  },
+  {
+    "id": "DEMO-P002",
+    "type": 1,
+    "product": "卤鸭翅",
+    "quantity": 65,
+    "location": "某企业 · 二车间",
+    "date": "2026-09-26",
+    "parents": [
+      "DEMO-R002"
+    ]
+  },
+  {
+    "id": "DEMO-D001",
+    "type": 2,
+    "product": "卤鸭脖",
+    "quantity": 55,
+    "location": "某企业 · 配送中心",
+    "date": "2026-09-26",
+    "parents": [
+      "DEMO-P001"
+    ]
+  },
+  {
+    "id": "DEMO-D002",
+    "type": 2,
+    "product": "卤鸭脖",
+    "quantity": 40,
+    "location": "某企业 · 配送中心",
+    "date": "2026-09-26",
+    "parents": [
+      "DEMO-P001"
+    ]
+  },
+  {
+    "id": "DEMO-D003",
+    "type": 2,
+    "product": "卤鸭翅",
+    "quantity": 65,
+    "location": "某企业 · 配送中心",
+    "date": "2026-09-26",
+    "parents": [
+      "DEMO-P002"
+    ]
+  },
+  {
+    "id": "DEMO-S001",
+    "type": 3,
+    "product": "卤鸭脖",
+    "quantity": 20,
+    "location": "某企业 · 门店一",
+    "date": "2026-09-27",
+    "parents": [
+      "DEMO-D001"
+    ]
+  },
+  {
+    "id": "DEMO-S002",
+    "type": 3,
+    "product": "卤鸭脖",
+    "quantity": 15,
+    "location": "某企业 · 门店二",
+    "date": "2026-09-27",
+    "parents": [
+      "DEMO-D002"
+    ]
+  },
+  {
+    "id": "DEMO-S003",
+    "type": 3,
+    "product": "卤鸭翅",
+    "quantity": 18,
+    "location": "某企业 · 门店三",
+    "date": "2026-09-27",
+    "parents": [
+      "DEMO-D003"
+    ]
+  }
+]

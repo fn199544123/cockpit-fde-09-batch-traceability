@@ -1,0 +1,24 @@
+{
+  "project": 9,
+  "ok": true,
+  "checks": [
+    "直接API非法业务数据拒绝，数据库无变更",
+    "跨站普通表单写入与数据库/源码下载拒绝",
+    "seed forward/backward exact path; unrelated branches excluded",
+    "create all four stages using UI; bidirectional exact chain",
+    "duplicate ID, missing upstream, zero and negative quantities rejected",
+    "edit and reload persistence; combined filter; CSV exact record and quantity",
+    "reset cancellation preserves and confirmation restores data",
+    "真实浏览器操作经HTTP写入SQLite，审计记录与版本一致",
+    "新浏览器无本地存档，读取同一服务端数据",
+    "过期版本返回409；重开数据库后数据和版本保留",
+    "手机宽度无整页横向溢出",
+    "前端版本冲突明确提示并停止继续提交",
+    "断网保存失败有明确提示，数据库不变且不显示保存成功"
+  ],
+  "sha256": {
+    "index.html": "4dc156c8a5e2e7165d83eff27fa66a96a37363ba208ec8e8832cd5b3747eb2ac",
+    "backend.py": "88ba4aac58fbb83e34c46978ca51a35fe24316cc95c4d4766fd27b024f511d15",
+    "seed.json": "7679bbb867e5bf973f2ba6e45eaa10f1d5df4a8ebb34579e5934fefb65ea7370"
+  }
+}
